@@ -3,22 +3,26 @@
 
 #include <string>
 #include <list>
+#include<bits/stdc++.h>
 using namespace std;
 
 class Graph{
 private:
-    int cantidadVertices;
+    int vertices;
     int cantidadAristas;
+    int INF;
     int** matrizAdyacencia;
     list<string> ListaVertices;
+    list<pair<int, int>> *listaAristas;
 
 
 public:
-    Graph();
+    Graph(int vertices);
     void agregarVertice(string nombre);
-    bool agregarBorde(string origen, string destino,int costo,double horasVuelo);
-    void mostrarVertices();
-    bool existeVertice(string nombre);
+    bool agregarArista(int origen, int destino,int costo);
+    void dijkstra(int origen,int destino);
+    int printSolution(vector<int> dist,int parent[],int origen,int destino);
+    void printPath(int parent[], int j);
 
 
 

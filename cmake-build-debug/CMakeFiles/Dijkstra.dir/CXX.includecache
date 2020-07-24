@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/corre/Dijkstra/FunWithDijkstra/Graph.cpp
+Graph.h
+C:/Users/corre/Dijkstra/FunWithDijkstra/Graph.h
+iostream
+-
+
+C:/Users/corre/Dijkstra/FunWithDijkstra/Graph.h
+string
+-
+list
+-
+bits/stdc++.h
+-
+
