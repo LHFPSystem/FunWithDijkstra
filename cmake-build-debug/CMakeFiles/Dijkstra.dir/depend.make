@@ -5,5 +5,6 @@ CMakeFiles/Dijkstra.dir/Graph.cpp.obj: ../Graph.cpp
 CMakeFiles/Dijkstra.dir/Graph.cpp.obj: ../Graph.h
 
 CMakeFiles/Dijkstra.dir/main.cpp.obj: ../Graph.h
+CMakeFiles/Dijkstra.dir/main.cpp.obj: ../Menu.h
 CMakeFiles/Dijkstra.dir/main.cpp.obj: ../main.cpp
 
